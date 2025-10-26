@@ -1,9 +1,9 @@
-# 🏥 Healthcare_Project  
+#  Healthcare_Project  
 **Predicting 30-Day Hospital Readmission in Diabetic Patients Using Machine Learning**
 
 ---
 
-## 🧠 Overview
+##  Overview
 This project predicts **early hospital readmission (within 30 days)** for diabetic patients using the **UCI Diabetes Dataset (130 U.S. hospitals, 1999–2008)**.  
 The goal is to build a machine learning model that can help hospitals identify high-risk patients early and evaluate **fairness across race, gender, and age**.
 
@@ -14,14 +14,14 @@ This project is **still under development**, and future versions will include an
 
 ---
 
-## 📊 Dataset Summary
+##  Dataset Summary
 - **Dataset:** UCI Diabetes (130 hospitals, 1999–2008)  
 - **Samples:** 101,766  
 - **Original Features:** 50 (13 numerical, 37 categorical)  
 - **Selected Features:** 24 (11 numerical, 13 categorical)  
 - **Shape:** (101,766, 24)
 
-### 🎯 Class Distribution (Before Balancing)
+###  Class Distribution (Before Balancing)
 | Category | Count |
 |-----------|--------|
 | No readmission | 54,864 |
@@ -33,7 +33,7 @@ To balance the dataset, **SMOTE (Synthetic Minority Oversampling Technique)** wa
 
 ---
 
-## ⚙️ Feature Selection
+##  Feature Selection
 Feature selection was based on **correlation analysis**, **descriptive statistics**, and **medical literature** on diabetes readmission.
 
 **Numerical Variables**
@@ -64,7 +64,7 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## 🤖 Model Performance
+##  Model Performance
 
 | Model | Accuracy | Notes |
 |--------|-----------|-------|
@@ -75,7 +75,7 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## ⚖️ Fairness Analysis
+##  Fairness Analysis
 
 ### By Race
 - **Lowest Accuracy:** Caucasian (0.575), African American (0.591)  
@@ -95,7 +95,7 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## 🧮 Tools and Libraries
+##  Tools and Libraries
 - Python  
 - pandas · numpy · scikit-learn  
 - imbalanced-learn (SMOTE)  
@@ -105,7 +105,7 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## 🧱 Workflow
+##  Workflow
 1. **Data Cleaning:** Removed invalid and missing values, encoded categorical variables  
 2. **Feature Selection:** Based on correlation and domain research  
 3. **Balancing:** Applied SMOTE to handle class imbalance  
@@ -116,7 +116,7 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## 🚧 Current Status
+##  Current Status
 ✅ Data preprocessing completed  
 ✅ Feature selection finalized  
 ✅ Models trained and compared  
@@ -125,13 +125,13 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 
 ---
 
-## 👨‍💻 Author
+##  Author
 **Bobby Dhir**  
 Undergraduate Student, University of Nebraska Omaha  
 Supervised by **Dr. Anoop Mishra** & **Dr. Deepak Khazanchi**
 
 ---
 
-### 📌 Summary
+###  Summary
 Machine learning project using healthcare data to predict **30-day readmission** for diabetic patients.  
 Focuses on **accuracy, fairness, and ethical AI** — currently expanding into an **LLM-integrated system**.
