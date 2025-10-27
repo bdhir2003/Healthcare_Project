@@ -117,11 +117,11 @@ Feature selection was based on **correlation analysis**, **descriptive statistic
 ---
 
 ##  Current Status
-✅ Data preprocessing completed  
-✅ Feature selection finalized  
-✅ Models trained and compared  
-✅ Fairness evaluation done  
-🚧 Next Step: LLM integration + result visualization
+ Data preprocessing completed  
+ Feature selection finalized  
+ Models trained and compared  
+ Fairness evaluation done  
+ Next Step: LLM integration + result visualization
 
 ---
 
